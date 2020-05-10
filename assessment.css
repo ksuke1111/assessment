@@ -1,0 +1,39 @@
+body {
+    background-color: #04A6EB;
+    color: #FDFFFF;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* 
+【配色について】
+「カラースキーム」で検索すると、coolors.co のような、
+配色理論などに基づいた色の組み合わせを提案してくれる
+サイトが見つかるので、それを活用してみるのもよいでしょう。 
+
+width: 500px; で、幅を 500px に設定しています
+margin-right: auto; で、右側のマージンを自動調節にしています
+margin-reft: auto; で、左側のマージンを自動調節にしています
+*/
+
+button {
+    /* padding （パディング）のプロパティでは、要素の内側の余白を設定できます。
+    ここでは、上下を 5px、左右を 20px に設定しています。 */
+    padding: 5px 20px;
+    background-color: #337AB7;
+    color: #ffffff;
+    /* 境界線のスタイル none は、境界線を表示しないという意味になります。 */
+    border-style: none;
+}
+
+/* margin は境界線より 外側 の余白、padding は境界線より 内側 の余白です */
+
+input {
+    height: 20px;
+}
+
+/* まとめ
+Web ページを作るときには要件を項目化してみる
+モックアップは、要件をまとめて人に伝えるために役に立つ
+色は、16 進数カラーコードで設定することができる */
