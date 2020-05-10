@@ -115,13 +115,6 @@ const answers = [
 // 定義した時点では a に何が入るかわかってないけど、
 // そこに何らかの値を入れることは決まっている。
 
-/* 関数たたき台
-function assessment(userName) {
-  // TODO 診断処理を実装する
-  return '';
-}
-*/
-
 function assessment(userName) {
     // TODO 診断処理を実装
     // 全文字のコード番号を取得してそれを足し合わせる
